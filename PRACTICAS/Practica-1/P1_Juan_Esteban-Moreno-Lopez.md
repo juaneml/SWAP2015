@@ -2,7 +2,7 @@
 
 ## Resultado máquina virtual 1.
 ### Captura de pantalla máquina virtual 1
-[![Captura máquina virtual_1](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/practica1/imagenes/P1-CAP-1.png)](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/practica1/imagenes/P1-CAP-1.png)
+[![Captura máquina virtual_1](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-1/imagenes/P1-CAP-1.png)](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-1/imagenes/P1-CAP-1.png)
 
 ########################################################################
 juane@ubuntu1:~$ apache2 -v
@@ -29,7 +29,7 @@ root 1128 0.0 0.0 4408 816tty1 S+ 11:17 0:00 grep --color=auto apache
 ########################################################################
 ## Resultado máquina virtul-2.
 ### Captura de pantalla máquina virtual 2.
-[![Captura máquina virtual_2](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/practica1/imagenes/P1-CAP-2.png)](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/practica1/imagenes/P1-CAP-2.png)
+[![Captura máquina virtual_2](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-1/imagenes/P1-CAP-2.png)](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-1/imagenes/P1-CAP-2.png)
 ########################################################################
 juane@ubuntu2:~$ apache2 -v
 ########################################################################
