@@ -1,0 +1,33 @@
+Práctica 1
+
+Resultado máquina virtual-1
+
+juane@ubuntu1:~$ apache2 -v
+Server version: Apache/2.2.22 (Ubuntu)
+Server built: Jul 22 2014 14:37:02
+
+juane@ubuntu1:~$ ps aux | grep apache2
+
+root 1062 0.2 0.5 34048 6972 ? Ss 11:15 0:00 /usr/sbin/apache2 -k start
+root 1107 0.0 0.2 34072 3776 ? S  11:15 0:00 /usr/sbin/apache2 -k start
+root 1110 0.0 0.2 34072 3776 ? S  11:15 0:00 /usr/sbin/apache2 -k start
+root 1122 0.0 0.2 34072 3776 ? S  11:15 0:00 /usr/sbin/apache2 -k start
+root 1125 0.0 0.2 34072 3776 ? S  11:15 0:00 /usr/sbin/apache2 -k start
+root 1128 0.0 0.2 34072 3776 ? S  11:15 0:00 /usr/sbin/apache2 -k start
+root 1128 0.0 0.0 4408 816tty1 S+ 11:17 0:00 grep --color=auto apache
+
+Resultado máquina virtul-2
+
+juane@ubuntu2:~$ apache2 -v
+Server version: Apache/2.2.22 (Ubuntu)
+Server built: Jul 22 2014 14:37:0
+
+juane@ubuntu2:~$ ps aux | grep apache2
+
+root 1012 0.2 0.5 34044 6932 ? Ss 12:14 0:00 /usr/sbin/apache2 -k start
+root 1058 0.0 0.2 34068 3772 ? S  12:14 0:00 /usr/sbin/apache2 -k start
+root 1060 0.0 0.2 34068 3772 ? S  12:14 0:00 /usr/sbin/apache2 -k start
+root 1063 0.0 0.2 34068 3772 ? S  12:14 0:00 /usr/sbin/apache2 -k start
+root 1065 0.0 0.2 34068 3772 ? S  12:14 0:00 /usr/sbin/apache2 -k start
+root 1069 0.0 0.2 34068 3772 ? S  12:14 0:00 /usr/sbin/apache2 -k start
+root 1069 0.0 0.0 4408 828tty1 S+ 12:14 0:00 grep --color=auto apache
