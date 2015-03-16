@@ -1,4 +1,4 @@
-#Práctica 2
+#Práctica 2. Clonar la información de un sitio web.
 
 ## Funcionamiento de la copia de archivos por ssh.
 
