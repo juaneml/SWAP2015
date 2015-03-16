@@ -35,7 +35,7 @@ Donde ./ es el directorio, root@192.168.56.102 es nuestra seguda máquina.
 Para el clonado de una carpeta entre dos máquinas, contamos con la herramienta rsync.
 Lo primero que debemos de hacer es instalar la herramienta desde  el usuario root con el siguiente comando:
 
-#### apt-get install rync.
+#### apt-get install rsync.
 
 ####################################################################
 
