@@ -7,7 +7,7 @@
 ### tar czf - ./ | ssh roo@192.168.56.102 'cat > ~/tar.tgz'
 ### Donde ./ es el directorio, root@192.168.56.102 es nuestra seguda máquina.
 #### En la siguiente captura podemos observar que la ejecución del comando se
-[![Captura copia de un directorio con el comando shh](https://github.com/juaneml/SWAP2015/tree/master/PRACTICAS/Practica-2/imagenes/ssh-tar-1.png)](https://github.com/juaneml/SWAP2015/tree/master/PRACTICAS/Practica-2/imagenes/ssh-tar-1.png)
+[![Captura copia de un directorio con el comando shh]()]()
 #### ha realizado con éxito.
 ## Clonado de una carpeta entre las dos máquinas.
 
