@@ -21,15 +21,16 @@ rm -f /tmp/nginx_signing.key
 
 ### A continuación, debemos añadir el repositorio, editando el fichero /etc/apt/sources.list y añadiendo al final las siguientes líneas:
 
-### con el comando nano, un editor que nos permite modificar los archivos en el terminal editamos el fichero  /etc/apt/sources.list
-#### añadimos al final del fichero
+### con el comando nano, un editor que nos permite modificar los archivos en el terminal editamos el fichero  /etc/apt/sources.list 
+
+###Añadimos al final del fichero
 
 deb http://nginx.org/packages/ubuntu/ lucid nginx" >> /etc/apt/sources.list
 deb-src http://nginx.org/packages/ubuntu/ lucid nginx" >> /etc/apt/sources.list
 
 ###Obtendremos la información del fichero como podemos ver en la siguiente captura.
 
-[![Captura edi-fic-sources](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-3/imagenes/edi-fic-sources.png)]
+[![Captura edi-fic-sources](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-3/imagenes/edi-fic-sources-list.png)]
 
 (https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-2/imagenes/edi.fic-sources.png)
 
