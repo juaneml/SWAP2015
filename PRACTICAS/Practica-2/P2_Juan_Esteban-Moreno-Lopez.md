@@ -1,4 +1,4 @@
-#Práctica 2
+#Práctica 2. Clonar la información de un sitio web.
 
 ## Funcionamiento de la copia de archivos por ssh.
 
@@ -50,7 +50,7 @@ En la siguiente captura podemos observar que se ha realizado con éxito.
 
 #######################################################################
 
-[![Captura shh](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-2/imagenes/rsync-1.png)]
+[![Captura rsync-1](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-2/imagenes/rsync-1.png)]
 (https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-2/imagenes/rsync-1.png)
 
 ##########################################################################
@@ -60,7 +60,7 @@ captura.
 
 ######################################################################################
 
-[![Captura shh](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-2/imagenes/rsync-2.png)]
+[![Captura rsync-2](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-2/imagenes/rsync-2.png)]
 (https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-2/imagenes/rsync-2.png)
 
 ######################################################################################
@@ -76,7 +76,7 @@ Obtendremos algo parecido a esto.
 
 #####################################################################################
 
-[![Captura shh](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-2/imagenes/ssh-keygen-1.png)]
+[![Captura shh-keygen-1](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-2/imagenes/ssh-keygen-1.png)]
 (https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-2/imagenes/ssh-keygen-1.png)
 
 ######################################################################################
@@ -87,7 +87,7 @@ tenido éxito.
 
 ######################################################################################
 
-[![Captura shh](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-2/imagenes/ssh-sin-password-1.png)]
+[![Captura shh-sin-password](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-2/imagenes/ssh-sin-password-1.png)]
 (https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-2/imagenes/ssh-sin-password-1.png)
 
 #########################################################################################
@@ -112,7 +112,7 @@ En la siguiente captura podemos ver la configuración.
 
 ##################################################################################################
 
-[![Captura shh](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-2/imagenes/crontab.png)]
+[![Captura crontab](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-2/imagenes/crontab.png)]
 (https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-2/imagenes/crontab.png)
 
 
