@@ -33,7 +33,7 @@ deb-src http://nginx.org/packages/ubuntu/ lucid nginx" >> /etc/apt/sources.list
 
 [![Captura edi-fic-sources](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-3/imagenes/edi-fic-sources-list.png)]
 
-(https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-2/imagenes/edi.fic-sources.png)
+(https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-3/imagenes/edi.fic-sources.png)
 
 ### Cuando salvemos el fichero editado actualizamos con update.
 
