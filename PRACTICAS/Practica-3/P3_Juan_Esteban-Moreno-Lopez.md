@@ -79,7 +79,7 @@ upstream apaches {
 ### Reiniciamos nginx
 sudo service nginx restart
 
-[![Captura](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-3/imagenes/nginx-restart)]
+[![Captura](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-3/imagenes/nginx-restart.png)]
 (https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-3/imagenes/nginx-restart.png)
 
 
