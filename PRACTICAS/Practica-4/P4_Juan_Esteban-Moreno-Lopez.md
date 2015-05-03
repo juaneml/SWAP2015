@@ -73,7 +73,7 @@ sudo apt-get install siege
 #############################################################
 ### Utilizamos una tercera herramienta para medir el rendimiento de servidores.
 ### Se trata de la herramienta Jmeter.
-########################################################3
+########################################################
 ### Procedemos a su instalación con el comando.
 sudo apt-get install jmeter
 #######################################################
@@ -97,5 +97,24 @@ jmeter
 ##########################################
 [![Captura inicio-jmeter](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/inicio-jmeter.png)]
 (https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/inicio-jmeter.png)
+###Nos vamos a Plan de Pruebas.
+#### Botón derecho del ratón añadir - Hilos(Usuarios) - Grupo de hilos
+[![Captura jmeter-grup-hilos](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/jmeter-grup-hilos.png)]
+(https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/jmeter-grup-hilos.png)
+#### Una vez creado el grupo de hilos, sobre el Grupo de Hilos botón derecho
+#### del ratón añadir, muestreador- petición http
+[![Captura jmeter-peticion](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/jmeter-peticion.png)]
+(https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/jmeter-peticion.png)
+#### Para visualizar los resultados añadimos
+añadir -receptor- gráfico de resultados
+######################################################
+[![Captura jmeter-gr-res](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/jmeter-gr-res.png)]
+(https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/jmeter-gr-res.png)
+######################################################
+añadir -receptor- ver árbol de resultados 
+######################################################
+[![Captura jmeter-arb-res](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/jmeter-arb-res.png)]
+(https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/jmeter-arb-res.png)
+#################################################
 #Comprobamos el rendimiento con Jmeter
 
