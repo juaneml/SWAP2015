@@ -45,6 +45,11 @@ ab -n 1000 -c 10 htttp://192.168.56.103
 ### Obtenemos el siguiente resultado:
 [![Captura ab-balanceador-haproxy](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/ab-balanceador-haproxy.png)]
 (https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/ab-balanceador-haproxy.png)
+### Realizamos un total de 10 pruebas.
+### Obtenemos la siguiente tabla con la media y la desviación estándar.
+[![Captura maq1-ab](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/maq1-ab.png)]
+(https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/maq1-ab.png)
+
 ##############################################################
 #Comprobamos el rendimiento con Siege
 ### Instalamos Siege:
@@ -69,8 +74,12 @@ sudo apt-get install siege
 ### Obtenemos el siguiente resultado:
 [![Captura siege-haproxy-balanceador](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/siege-haproxy-balanceador.png)]
 (https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/siege-haproxy-balanceador.png)
-
 #############################################################
+### Realizamos un total de 10 pruebas donde calculamos media y la desviación estándar.
+[![Captura maq1-siege](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/maq1-siege.png)]
+(https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/maq1-siege.png)
+#############################################################
+#Comprobamos el rendimiento con Jmeter
 ### Utilizamos una tercera herramienta para medir el rendimiento de servidores.
 ### Se trata de la herramienta Jmeter.
 ########################################################
@@ -116,5 +125,34 @@ añadir -receptor- ver árbol de resultados
 [![Captura jmeter-arb-res](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/jmeter-arb-res.png)]
 (https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/jmeter-arb-res.png)
 #################################################
-#Comprobamos el rendimiento con Jmeter
+### Para las pruebas realizadas con una sola máquina obtenemos la siguiente grafica.
+[![Captura jmeter-1-maq](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/jmeter-1-maq.png)]
+(https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/jmeter-1-maq.png)
+#################################################
+### Para la realizar la petición http en el campo nombre de servidor o IP en mi caso la ip 192.168.56.101 de la máquina uno, en la ruta el fichero al cual queremos acceder /fichero.html
+[![Captura jmeter-peticion-http](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/jmeter-peticion-http.png)]
+(https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/jmeter-peticion-http.png)
+
+###################################################
+### Vemos el árbol de resultados.
+[![Captura jmeter-resultados](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/jmeter-resultados.png)]
+(https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/jmeter-resultados.png)
+####################################################
+### Comprobamos el rendimiento del balanceador con nginx
+[![Captura jmeter-balanceador-nginx](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/jmeter-balanceador-nginx.png)]
+(https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/jmeter-balanceador-nginx.png)
+####################################################
+### Comprobamos el rendimiento del balanceador con haproxy
+[![Captura jmeter-balanceador-haproxy](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/jjmeter-balanceador-haproxy.png)]
+(https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/jmeter-balanceador-haproxy.png)
+
+
+
+
+
+
+
+
+
+
 
