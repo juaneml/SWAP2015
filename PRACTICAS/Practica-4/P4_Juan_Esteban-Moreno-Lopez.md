@@ -37,6 +37,7 @@ ab -n 1000 -c 10 http://192.168.56.103
 ######################################################
 ### Ejecutamos los siguientes comandos:
 service nginx stop
+######################################
 /usr/sbin/haproxy -f /etc/haproxy/haproxy.cfg
 ###############################################
 ### Ejecutamos el programa ab para el balanceador con haproxy.
@@ -94,7 +95,7 @@ sudo apt-get install jmeter
 jmeter
 ### Iniciamos la interfaz gráfica:
 ##########################################
-[![Captura inicio-jmeter](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/inicio.png)]
+[![Captura inicio-jmeter](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/inicio-jmeter.png)]
 (https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/inicio-jmeter.png)
 #Comprobamos el rendimiento con Jmeter
 
