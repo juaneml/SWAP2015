@@ -102,7 +102,7 @@ sudo apt-get install siege
 ### Procedemos a su instalación con el comando.
 sudo apt-get install jmeter
 #######################################################
-### Captura instalación.
+### Instalación.
 [![Captura install-jmeter](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/install-jmeter.png)]
 (https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/install-jmeter.png)
 
@@ -116,7 +116,6 @@ sudo apt-get install jmeter
 ############################################################
 ### Comprobamos que se ha instalado correctamente.
 #################################################
-### Captura.
 [![Captura comp-instalacion-jmeter](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/comp-instalacion-jmeter.png)]
 (https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/comp-instalacion-jmeter.png)
 ##############################################
