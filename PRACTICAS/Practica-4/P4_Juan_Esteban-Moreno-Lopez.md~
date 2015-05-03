@@ -49,7 +49,10 @@ ab -n 1000 -c 10 htttp://192.168.56.103
 ### Obtenemos la siguiente tabla con la media y la desviación estándar.
 [![Captura maq1-ab](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/maq1-ab.png)]
 (https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/maq1-ab.png)
-
+##########################################################
+### Para la media obtenemos:
+[![Captura ab-graf-media](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/ab-graf-media.png)]
+(https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/ab-graf-media.png)
 ##############################################################
 #Comprobamos el rendimiento con Siege
 ### Instalamos Siege:
@@ -78,6 +81,15 @@ sudo apt-get install siege
 ### Realizamos un total de 10 pruebas donde calculamos media y la desviación estándar.
 [![Captura maq1-siege](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/maq1-siege.png)]
 (https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/maq1-siege.png)
+### Para la media obtenemos la siguiente gráfica:
+[![Captura siege-graf-media](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/siege-graf-media.png)]
+(https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/siege-graf-media.png)
+
+### Para la desviación estándar obtenemos la siguiente gráfica:
+[![Captura siege-graf-des](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/siege-graf-des.png)]
+(https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/siege-graf-des.png)
+
+### Con los resultados obtenidos podemos concluir que la configuración con un balanceador haproxy obtenemos mejores resultados.
 #############################################################
 #Comprobamos el rendimiento con Jmeter
 ### Utilizamos una tercera herramienta para medir el rendimiento de servidores.
@@ -89,10 +101,14 @@ sudo apt-get install jmeter
 ### Captura instalación.
 [![Captura install-jmeter](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/install-jmeter.png)]
 (https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/install-jmeter.png)
+
 ###########################################################
+
 ##### Fin Instalación.
+
 [![Captura fin-install-jmeter](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/fin-install-jmeter.png)]
 (https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/fin-install-jmeter.png)
+
 ############################################################
 ### Comprobamos que se ha instalado correctamente.
 #################################################
@@ -143,10 +159,10 @@ añadir -receptor- ver árbol de resultados
 (https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/jmeter-balanceador-nginx.png)
 ####################################################
 ### Comprobamos el rendimiento del balanceador con haproxy
-[![Captura jmeter-balanceador-haproxy](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/jjmeter-balanceador-haproxy.png)]
+[![Captura jmeter-balanceador-haproxy](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/jmeter-balanceador-haproxy.png)]
 (https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/jmeter-balanceador-haproxy.png)
 
-
+##############################################
 
 
 
