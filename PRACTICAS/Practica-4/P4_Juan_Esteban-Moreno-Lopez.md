@@ -143,10 +143,10 @@ añadir -receptor- ver árbol de resultados
 (https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/jmeter-balanceador-nginx.png)
 ####################################################
 ### Comprobamos el rendimiento del balanceador con haproxy
-[![Captura jmeter-balanceador-haproxy](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/jjmeter-balanceador-haproxy.png)]
+[![Captura jmeter-balanceador-haproxy](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/jmeter-balanceador-haproxy.png)]
 (https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/jmeter-balanceador-haproxy.png)
 
-
+##############################################
 
 
 
