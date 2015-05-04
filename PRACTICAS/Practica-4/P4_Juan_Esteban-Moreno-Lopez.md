@@ -91,11 +91,11 @@ sudo apt-get install siege
 (https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/maq1-siege.png)
 
 ### Realizamos un total de 10 pruebas donde calculamos media y la desviación estándar balanceador configuración nginx.
-[![Captura maq1-siege](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/balan-siege-nginx.png)]
+[![Captura balan-nginx](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/balan-siege-nginx.png)]
 (https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/balan-siege-nginx.png)
 
 ### Realizamos un total de 10 pruebas donde calculamos media y la desviación estándar balanceador configuración haproxy.
-[![Captura maq1-siege](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/balan-siege-haproxy.png)]
+[![Captura balan-haproxy](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/balan-siege-haproxy.png)]
 (https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/balan-siege-haproxy.png)
 
 ### Para la media obtenemos la siguiente gráfica:
