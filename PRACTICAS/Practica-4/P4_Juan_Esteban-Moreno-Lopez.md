@@ -53,10 +53,7 @@ ab -n 1000 -c 10 htttp://192.168.56.103
 ### Para la media obtenemos:
 [![Captura ab-graf-media](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/ab-graf-media.png)]
 (https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/ab-graf-media.png)
-##########################################################
-### Para la desviación estándar obtenemos:
-[![Captura ab-graf-des](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/ab-graf-des.png)]
-(https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/ab-graf-des.png)
+
 ##############################################################
 #Comprobamos el rendimiento con Siege
 ### Instalamos Siege:
@@ -89,9 +86,7 @@ sudo apt-get install siege
 [![Captura siege-graf-media](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/siege-graf-media.png)]
 (https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/siege-graf-media.png)
 
-### Para la desviación estándar obtenemos la siguiente gráfica:
-[![Captura siege-graf-des](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/siege-graf-des.png)]
-(https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/siege-graf-des.png)
+
 
 ### Con los resultados obtenidos podemos concluir que la configuración con un balanceador haproxy obtenemos mejores resultados.
 #############################################################
