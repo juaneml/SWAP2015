@@ -57,7 +57,9 @@ mysqldump contactos -u root -p > /root/contactos.sql
 
 ### Como habíamos bloqueado las tablas, debemos desbloquearlas para ello utiliamos el comando siguiente:
 mysql -u root -p
+###########################################
 mysql> UNLOCK TABLES;
+###########################################
 mysq> quit
 
 ### Obtendremos el siguiente resultado:
@@ -73,7 +75,9 @@ scp root@192.168.56.101:/root/contactos.sql /root/
 ### Con el archivo de copia de seguridad en el esclavo ya podemos importar la BD completa en el MySQL.
 #### Creamos la BD:
 mysql -u root -p
+##################################
 mysql> CREATE DATABASE 'contactos';
+##################################
 mysql> quit
 
 #### Restauramos los datos contenidos en la BD:
@@ -121,10 +125,15 @@ log_bin = /var/log/mysql/bin.log
 mysql -u root -p
 ### Ejecutamos los siguientes comandos:
 mysql> CREATE USER esclavo IDENTIFIED BY 'esclavo';
+######################################################
 mysql> GRANT REPLICATION SLAVE ON *.* TO 'esclavo'@'%'
+######################################################
 IDENTIFIED BY 'esclavo';
+######################################################
 mysql> FLUSH PRIVILEGES;
+######################################################
 mysql> FLUSH TABLES;
+######################################################
 mysql> FLUSH TABLES WITH READ LOCK;
 
 ### Para finalizar ejecutamos un último comando:
@@ -142,8 +151,11 @@ mysql -u root -p
 
 ### Ejecutamos los comandos siguientes:
 mysql> CHANGE MASTER TO MASTER_HOST='192.168.56.101',
+########################################################
 MASTER_USER='esclavo', MASTER_PASSWORD='esclavo',
+########################################################
 MASTER_LOG_FILE='mysql-bin.000003', MASTER_LOG_POS=869,
+########################################################
 MASTER_PORT=3306;
 
 ### Por último ejecutamos:
