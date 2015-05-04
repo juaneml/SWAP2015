@@ -148,6 +148,7 @@ MASTER_PORT=3306;
 
 ### Por último ejecutamos:
 mysql> START SLAVE;
+##########################################################
 [![Captura start-slave](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-5/imagenes/start-slave.png)]
 (https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/start-slave.png)
 ###############################################################
@@ -165,8 +166,11 @@ mysql> SHOW SLAVE STATUS\G
 ### Para comprobar que todo ha ido bien y funciona nos vamos a la máquina maestro e insertamos una tupla:
 
 mysql> use contactos;
+############################################################
 mysql> insert into datos(nombre,tlf) values("paco",958745636);
+#########################################################
 mysql quit
+############################################################
 [![Captura prueba-insert-maq1](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-5/imagenes/prueba-insert-maq1.png)]
 (https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/prueba-insert-maq1.png)
 
