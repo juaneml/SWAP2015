@@ -1,6 +1,6 @@
 #Práctica 4. Comprobar el rendimiento de servidores web
 #####
-##Instalamos apache berksmark 
+##Instalamos Apache Benchmark 
 sudo apt-get install apache2-utils
 
 [![Captura Install_ab](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/Install_ab.png)]
