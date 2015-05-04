@@ -16,11 +16,11 @@ create database contactos;
 ### Muy importante no olvidar el ";" al final de cada sentencia.
 ### Una vez creada nuestra base de datos ejecutamos el comando:
 use contactos;
-### Mostramos las tablas, como no tenemos ninguna nos mostrara que nuestra base de datos esta vacia.
+### Mostramos las tablas, como no tenemos ninguna nos mostrará que nuestra base de datos esta vacia.
 show tables;
 ### Creamos nuestra tabla datos, ejecutamos el comando siguiente:
 create table datos (nombre varchar(100),tlf int);
-##### Donde datos es el nombre de la tabla, entre paréntesis son los tipos de datos, nobre de tipo varchar y tlf de tipo entero.
+##### Donde datos es el nombre de la tabla, entre paréntesis son los tipos de datos, nombre de tipo varchar y tlf de tipo entero.
 
 ### Mostramos nuestra tabla creada con el comando siguiente:
 show tables;
@@ -43,7 +43,9 @@ describe datos;
 
 ### En el servidor de BD principal ejecutamos los comandos siguientes:
 mysql -u root -p
+##########################
 mysql > FLUSH TALBES WITH READ LOCK;
+############################
 mysql > quit
 
 ######################################################
@@ -53,7 +55,7 @@ mysql > quit
 ### En el servidor principal ejecutamos el comando siguiente:
 mysqldump contactos -u root -p > /root/contactos.sql
 
-### Como habíamos bloqueado las tablas, debemos desbloquearlas para ello utiliamos los comandos siguientes:
+### Como habíamos bloqueado las tablas, debemos desbloquearlas para ello utiliamos el comando siguiente:
 mysql -u root -p
 mysql> UNLOCK TABLES;
 mysq> quit
@@ -75,7 +77,7 @@ mysql> CREATE DATABASE 'contactos';
 mysql> quit
 
 #### Restauramos los datos contenidos en la BD:
-mysql -u root -p contactos #<# /root/contactos.sql
+mysql -u root -p contactos \< /root/contactos.sql
 #########################################################
 
 ##Replicación de BD mediante una configuración maestro-esclavo
@@ -84,7 +86,7 @@ mysql -u root -p contactos #<# /root/contactos.sql
 ### Con el editor nano como root modificamos /etc/mysql/my.cnf
 nano /etc/mysql/my.cnf
 #### Comentamos el parámetro bind-address.
-"#"bind-address 127.0.0.1
+\# bind-address 127.0.0.1
 #### Le indicamos el archivo donde almacenar el log de errores.
 log_error = /var/log/mysql/error.log
 #### Establecemos el identificador del servidor.
@@ -102,7 +104,7 @@ log_bin = /var/log/mysql/bin.log
 ### Con el editor nano como root modificamos /etc/mysql/my.cnf
 nano /etc/mysql/my.cnf
 #### Comentamos el parámetro bind-address.
-"#"bind-address 127.0.0.1
+\#bind-address 127.0.0.1
 #### Le indicamos el archivo donde almacenar el log de errores.
 log_error = /var/log/mysql/error.log
 #### Establecemos el identificador del servidor.
@@ -174,5 +176,5 @@ mysql> select * from datos;
 ### Como podemos ver en la siguiente captura, los datos han sido replicados.
 [![Captura prueba-insert-result](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-5/imagenes/prueba-insert-result.png)]
 (https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/prueba-insert-result.png)
-###
+#############################################################
 
