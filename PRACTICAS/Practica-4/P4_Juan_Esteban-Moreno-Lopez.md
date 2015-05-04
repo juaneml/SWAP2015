@@ -50,6 +50,13 @@ ab -n 1000 -c 10 htttp://192.168.56.103
 [![Captura maq1-ab](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/maq1-ab.png)]
 (https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/maq1-ab.png)
 ##########################################################
+### Realizamos un total de 10 pruebas donde calculamos media y la desviación estándar balanceador configuración nginx.
+[![Captura balan-ab-nginx.png](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/balan-ab-nginx.png)]
+(https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/balan-ab-nginx.png)
+
+### Realizamos un total de 10 pruebas donde calculamos media y la desviación estándar balanceador configuración haproxy.
+[![Captura balan-ab-haproxy.png](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/balan-ab-nginx.png)]
+(https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/balan-ab-haproxy.png)
 ### Para la media obtenemos:
 [![Captura ab-graf-media](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/ab-graf-media.png)]
 (https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/ab-graf-media.png)
@@ -79,9 +86,11 @@ sudo apt-get install siege
 [![Captura siege-haproxy-balanceador](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/siege-haproxy-balanceador.png)]
 (https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/siege-haproxy-balanceador.png)
 #############################################################
-### Realizamos un total de 10 pruebas donde calculamos media y la desviación estándar.
+### Realizamos un total de 10 pruebas donde calculamos media y la desviación estándar máquina 1.
 [![Captura maq1-siege](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/maq1-siege.png)]
 (https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/maq1-siege.png)
+
+
 ### Para la media obtenemos la siguiente gráfica:
 [![Captura siege-graf-media](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/siege-graf-media.png)]
 (https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/siege-graf-media.png)
