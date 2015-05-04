@@ -55,7 +55,7 @@ ab -n 1000 -c 10 htttp://192.168.56.103
 (https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/balan-ab-nginx.png)
 
 ### Realizamos un total de 10 pruebas donde calculamos media y la desviación estándar balanceador configuración haproxy.
-[![Captura balan-ab-haproxy.png](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/balan-ab-nginx.png)]
+[![Captura balan-ab-haproxy.png](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/balan-ab-haproxy.png)]
 (https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/balan-ab-haproxy.png)
 ### Para la media obtenemos:
 [![Captura ab-graf-media](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-4/imagenes/ab-graf-media.png)]
