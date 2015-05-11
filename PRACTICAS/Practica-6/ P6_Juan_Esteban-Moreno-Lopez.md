@@ -75,8 +75,8 @@ sudo mdadm --detail /dev/md0
 
 ## Obtendremos el siguiente resultado:
 
-[![Captura fstab](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-6/imagenes/fstab.png)]
-(https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-6/imagenes/fstab.png)
+[![Captura montado-auto](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-6/imagenes/montado-auto.png)]
+(https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-6/imagenes/montado-auto.png)
 
 #############################################################
 
@@ -86,8 +86,7 @@ mount -a
 
 #############################################################
 
-[![Captura montado-auto](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-6/imagenes/montado-auto.png)]
-(https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-6/imagenes/montado-auto.png)
+
 
 ## Al iniciar la máquina vemos como nos monta el RAID:
 
