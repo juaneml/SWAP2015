@@ -101,7 +101,7 @@ mount -a
 mdadm --detail --scan >> /etc/mdadm/mdadm.conf
 
 #############################################################################
-[![Captura mdadm.conf-1](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-6/imagenes/fdisk-l.png)]
+[![Captura mdadm.conf-1](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-6/imagenes/mdadm.conf-1.png)]
 (https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-6/imagenes/mdadm.conf-1.png) 
 
 ###############################################################################
@@ -109,7 +109,7 @@ mdadm --detail --scan >> /etc/mdadm/mdadm.conf
 ## Visualizamos que se a añadido. Ejecutamos el siguiente comando:
 cat /etc/mdadm/mdadm.conf
 
-#####################################################3
+#####################################################
 
 [![Captura mdadm.conf-2](https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-6/imagenes/mdadm.conf-2.png)]
 (https://github.com/juaneml/SWAP2015/blob/master/PRACTICAS/Practica-6/imagenes/mdadm.conf-2.png)
